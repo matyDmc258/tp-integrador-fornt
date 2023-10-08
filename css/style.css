@@ -1,115 +1,163 @@
-body{
+body {
     margin: 0;
     padding: 0;
     min-width: 100vh;
     box-sizing: border-box;
 }
-.container1{
-    background-color: black;
-}
-.texto{
-    width: auto;
-    top: 440px;
-    left: 70px;
-    font-size: 15px;
-    color:white;
-    z-index: 5;
-    position: absolute;
-    overflow-y: auto;
-    margin-right: 250px;
-    margin-left: 750px;
-}
-.titulo-bs{
-    width: auto;
-    top: 400px;
-    left: 0px;
-    font-size: 29px;
-    color:white;
-    z-index: 5;
-    position: absolute;
-    overflow-y: auto;
-    margin-right: 250px;
-    margin-left: 1500px;
-    z-index: 1;
-    font-weight: 600;
-}
-.span{
-    position: relative;
-    right:  125px;
-    margin: 5px;
 
+
+.carousel-item{
+    filter: brightness(0.7);
 }
-.span2{
-    position: relative;
-    right:  125px;
-    margin: 5px;
-}
-.span3{
-    position: relative;
-    right:  125px;
-    margin: 5px;
-}
-.footer{
-    background-color: #1C3A49;
-    text-decoration: none;
-    color: white;
+.boton-trasparente{
+    z-index: 5;
+    overflow-y: auto;
+    position: absolute;
+    bottom: 490px;
+    left: 1350px;
     
 }
-.form-text{
-    text-align: center;
-    padding: 1px;
-}
-.col-form {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-
-}
-.size{
-    display: block;
-    padding: 10px;
-    margin: 10px;
-    box-sizing: border-box 1px;
-    width: 412px;
-
-}
-.mover2{
-    position: relative;
-    left: 208px
-}
-.mover{
-    position: relative;
-    left: 5px;
+.boton-verde{
+    z-index: 5;
+    overflow-y: auto;
+    position: absolute;
+    bottom: 490px;
+    left: 1510px;
+    background-color: #088A29!important;
+    color: white !important;
 }
 
-.area{
-    display: flex;
-    justify-content: center;
-    margin-bottom: 20px;
-    padding: 8px;
-    margin: 20px;
-}
-.text-for{
-    margin-top: 10px;
-    margin-right: 620px;
-    padding: 8px;
-    margin-bottom: 6px;
-    margin-top: -30px;
-    
-}
 
-.texto_caja{
-    padding: 7px;
-}
+    .texto {
+        width: auto;
+        top: 440px;
+        left: 70px;
+        font-size: 15px;
+        color: white;
+        z-index: 5;
+        position: absolute;
+        overflow-y: auto;
+        margin-right: 250px;
+        margin-left: 750px;
+    }
 
-.mover-boton{
-    position: relative;
-    right: 55px;
+    .titulo-bs {
+        width: auto;
+        top: 400px;
+        left: 0px;
+        font-size: 29px;
+        color: white;
+        z-index: 5;
+        position: absolute;
+        overflow-y: auto;
+        margin-right: 250px;
+        margin-left: 1500px;
+        z-index: 1;
+        font-weight: 600;
+    }
 
-}
-.boton-inferior{
-    width: 115%;
-    border: none;
-    font-size: 18px;
-    background-color: #7fc33b !important;
-    color: whitesmoke;
-}
+.text-center {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+    .span {
+        position: relative;
+        right: 125px;
+        margin: 5px;
+
+    }
+
+    .span2 {
+        position: relative;
+        right: 125px;
+        margin: 5px;
+    }
+
+    .span3 {
+        position: relative;
+        right: 125px;
+        margin: 5px;
+    }
+
+    .footer {
+        background-color: #1C3A49;
+        text-decoration: none;
+        color: white;
+
+    }
+
+    .form-text {
+        text-align: center;
+        padding: 1px;
+    }
+
+    .col-form {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+
+    }
+
+    .size {
+        display: block;
+        padding: 10px;
+        margin: 10px;
+        box-sizing: border-box 1px;
+        width: 412px;
+
+    }
+
+    .imput-nombre {
+        position: relative;
+        left: 208px
+    }
+
+    .imput-apellido {
+        position: relative;
+        left: 5px;
+    }
+
+    .tit-from {
+        margin-top: 9px;
+        color: #000;
+    }
+
+    .tit-from2 {
+        margin-top: -5px;
+        color: black;
+    }
+
+    .area {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+        padding: 8px;
+        margin: 20px;
+    }
+
+    .text-for {
+        margin-top: 10px;
+        margin-right: 620px;
+        padding: 8px;
+        margin-bottom: 6px;
+        margin-top: -30px;
+
+    }
+
+    .texto_caja {
+        padding: 7px;
+    }
+
+    .mover-boton {
+        position: relative;
+        right: 55px;
+
+    }
+
+    .boton-inferior {
+        width: 115%;
+        border: none;
+        font-size: 18px;
+        background-color: #7fc33b !important;
+        color: whitesmoke;
+    }
