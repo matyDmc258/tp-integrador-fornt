@@ -5,18 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
+    <link href="combiertete.html">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-    <title>Integrador</title>
+   <title>Integrador</title>
 </head>
 
 <body>
     <nav class="navbar navbar-expand-lg bg-dark py-0">
         <div class="container-fluid ">
             <a class="navbar-brand text-white" href="#">
-                <img src="img/codoacodo.png" alt="Logo" width="65" height="50" class="d-inline-block align text-center text-white">
+                <img src="img/codoacodo.png" alt="Logo" width="65" height="50"
+                    class="d-inline-block align text-center text-white">
                 Conf Bs As
             </a>
-            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler bg-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -42,7 +46,7 @@
             </div>
         </div>
     </nav>
-    
+
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
             <div class="texto-carouse text-end ">
@@ -73,145 +77,233 @@
                 <span class="visually-hidden">Next</span>
             </button>
         </div>
+    </div>
 
+
+    <div class="container text-center">
+        <h5 class=" ">Conoce a los oradores</h5>
+        <h1>Oradores</h1>
+        <div class="card-group">
+            <div class="card mx-3 mb-4 ">
+                <img src="img/steve.jpg" class="card-img-top" alt="...">
+                <div class="span 1">
+                    <span class="badge rounded-pill text-bg-warning">JavaScript</span>
+                    <span class="badge rounded-pill text-bg-info">React</span>
+                </div>
+                <div class="card-body text-start">
+                    <h5 class="card-title">Steve Jobs</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, vero ipsum!
+                        Unde
+                        officia dignissimos voluptates, dicta autem sunt? Adipisci, ad ut? Quae esse mollitia eius
+                        sunt,
+                        praesentium voluptate deleniti autem.</p>
+                </div>
+            </div>
+
+            <div class="card mx-3 mb-4  border-start">
+                <img src="img/bill.jpg" class="card-img-top" alt="...">
+                <div class="span2">
+                    <span class="badge rounded-pill text-bg-warning">JavaScript</span>
+                    <span class="badge rounded-pill text-bg-info">React</span>
+                </div>
+                <div class="card-body text-start border-start">
+                    <h5 class="card-title">Bill Gates</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis sit unde?
+                        Eligendi odit deleniti similique molestias natus rem quo adipisci iure placeat minima!
+                        Tempore
+                        quae dicta assumenda sint dolore.</p>
+                </div>
+            </div>
+
+            <div class="card mx-3 mb-4  border-start">
+                <img src="img/ada.jpeg" class="card-img-top" alt="...">
+                <div class="span3">
+                    <span class="badge rounded-pill text-bg-secondary">Negocius</span>
+                    <span class="badge rounded-pill text-bg-danger">Startups</span>
+                </div>
+                <div class="card-body text-start">
+                    <h5 class="card-title">Ada Lovelace</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,
+                        voluptate atque dolore libero dolorem incidunt impedit, est neque nemo voluptatem quod vel,
+                        recusandae ex? Vel recusandae enim id expedita molestiae?</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container-fluid contenedor">
+        <div class="row">
+            <div class="col-6 p-0">
+                <img class="d-block w-100" src="./img/honolulu.jpg" alt="playa">
+            </div>
+            <div class="col-6 bg-dark text-white border-start ">
+
+                <h4 class="texto_caja ">Bs As-Octubre</h4>
+                <p class="texto_caja ">Buenos Aires es la provincia y la localidad más grande del estado de
+                    Argentina.
+                    En los Estados Unidos, Honolulu es la ciudad más sureña. Aunque el nombre de Honolulu se refiere
+                    al
+                    área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu forman
+                    una
+                    ciudad-condado que abarca toda la ciudad (aproximadamente 600 km² de superficie).</p>
+                <button type="button" class="btn btn-secondary btn-outline-light">Conocé más</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container form-text">
+        <p class="tit-from">CONVIERTETE EN UN</p>
+        <h2 class="tit-from2"><b>ORADOR</b></h2>
+        <p class="tit-from">Anotate para dar una <span class="underline">charla ignite.</span> Cuentanos de que
+            quieres hablar</p>
+        <div class="formulario-entero">
+
+            <div class=" col-form ">
+                <div class="imput-nombre">
+                    <input class="size" type="text" placeholder="nombre">
+
+                </div>
+                <div class="imput-apellido">
+                    <input class="size" type="text" placeholder="apellido">
+
+                </div>
+
+            </div>
+            <div class="area">
+                <textarea cols="130" rows="3" placeholder="Sobre que querees hablar?"></textarea>
+            </div>
+            <div id="emailHelp" class="text-for">recuerda incluir un titulo para charlar</div>
+
+            <div class="d-grid gap-2 col-7 mx-auto mover-boton">
+                <button class="btn btn-success boton-inferior" type="button">Enviar</button>
+
+            </div>
+        </div>
+
+        <!-- compra de ticket -->
+
+        <div class="container-tickets" id="containerTickets">
+            <div class="tickets-categorias">
+                <div class="estudiante" id="descuentoEstudiante">
+                    <marquee behavior="" direction="">
+                        <h3>Estudiante</h3>
+                    </marquee>
+                    <h5>Tiene un descuento</h5>
+                    <h2>80%</h2>
+                    <h6>* presentar documentación</h6>
+                </div>
+                <div class="trainee" id="descuentoTrainee">
+                    <marquee behavior="" direction="">
+                        <h3>Trainee</h3>
+                    </marquee>
+                    <h5>Tiene un descuento</h5>
+                    <h2>50%</h2>
+                    <h6>* presentar documentación</h6>
+                </div>
+                <div class="junior" id="descuentoJunior">
+                    <marquee behavior="" direction="">
+                        <h3>Junior</h3>
+                    </marquee>
+                    <h5>Tiene un descuento</h5>
+                    <h2>15%</h2>
+                    <h6>* presentar documentación</h6>
+                </div>
+            </div>
+            <div class="tickets-text">
+                <h6>VENTA</h6>
+                <h1>VALOR DE TICKET $200</h1>
+            </div>
         
-        <div class="container text-center">
-            <h5 class=" ">Conoce a los oradores</h5>
-            <h1>Oradores</h1>
-            <div class="card-group">
-                <div class="card mx-3 mb-4 ">
-                    <img src="img/steve.jpg" class="card-img-top" alt="...">
-                    <div class="span 1">
-                        <span class="badge rounded-pill text-bg-warning">JavaScript</span>
-                        <span class="badge rounded-pill text-bg-info">React</span>
+            <div class="formulario-entero" id="formularioTickets">
+        
+                <div class=" columna-formulario ">
+                    <div class="campo-nombre">
+                        <input id="inputNombre" class="input-text" type="text" placeholder="Nombre">
+        
                     </div>
-                    <div class="card-body text-start">
-                        <h5 class="card-title">Steve Jobs</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo, vero ipsum!
-                            Unde
-                            officia dignissimos voluptates, dicta autem sunt? Adipisci, ad ut? Quae esse mollitia eius
-                            sunt,
-                            praesentium voluptate deleniti autem.</p>
+                    <div class="campo-apellido">
+                        <input id="inputApellido" class="input-text" type="text" placeholder="Apellido">
+        
+                    </div>
+        
+                    <div>
+                        <div class="campo-corre">
+                            <input id="inputCorreo" class="input-Correo" type="text" style="width:800px" placeholder="Correo">
+        
+                        </div>
+        
+                    </div>
+        
+                </div>
+                <div class=" columna-formulario ">
+                    <div class="imput-cantidad">
+                        <h6 class="label-Cantidad">Cantidad</h6>
+                        <input id="inputCantidad" class="input-text" type="text" placeholder="Cantidad">
+        
+                    </div>
+        
+                    <div class="labelcategoria">
+                        <h6 class="label-Categoria">Categoria</h6>
+                        <select id="selectCategoria" name="Categoria" class="selec-categoria">
+                            <option value="Estudiante">Estudiante</option>
+                            <option value="Trainee">Trainee</option>
+                            <option value="Junior">Junior</option>
+                        </select>
                     </div>
                 </div>
-
-                <div class="card mx-3 mb-4  border-start">
-                    <img src="img/bill.jpg" class="card-img-top" alt="...">
-                    <div class="span2">
-                        <span class="badge rounded-pill text-bg-warning">JavaScript</span>
-                        <span class="badge rounded-pill text-bg-info">React</span>
-                    </div>
-                    <div class="card-body text-start border-start">
-                        <h5 class="card-title">Bill Gates</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut nobis sit unde?
-                            Eligendi odit deleniti similique molestias natus rem quo adipisci iure placeat minima!
-                            Tempore
-                            quae dicta assumenda sint dolore.</p>
-                    </div>
+        
+                <div class="alert alert-primary" id="alerta" role="alert">
+                    Total a Pagar:$
                 </div>
-
-                <div class="card mx-3 mb-4  border-start">
-                    <img src="img/ada.jpeg" class="card-img-top" alt="...">
-                    <div class="span3">
-                        <span class="badge rounded-pill text-bg-secondary">Negocius</span>
-                        <span class="badge rounded-pill text-bg-danger">Startups</span>
-                    </div>
-                    <div class="card-body text-start">
-                        <h5 class="card-title">Ada Lovelace</h5>
-                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus,
-                            voluptate atque dolore libero dolorem incidunt impedit, est neque nemo voluptatem quod vel,
-                            recusandae ex? Vel recusandae enim id expedita molestiae?</p>
-                    </div>
+        
+                <div class="d-grid gap-2 col-7 mx-auto boton-borrar">
+                    <button id="btnBorrar" class="btn btn-success botones-tickes" type="button">Borrar</button>
+        
                 </div>
-            </div>
-        </div>
-
-
-        <div class="container-fluid contenedor">
-            <div class="row">
-                <div class="col-6 p-0">
-                    <img class="d-block w-100" src="./img/honolulu.jpg" alt="playa">
-                </div>
-                <div class="col-6 bg-dark text-white border-start ">
-
-                    <h4 class="texto_caja ">Bs As-Octubre</h4>
-                    <p class="texto_caja ">Buenos Aires es la provincia y la localidad más grande del estado de
-                        Argentina.
-                        En los Estados Unidos, Honolulu es la ciudad más sureña. Aunque el nombre de Honolulu se refiere
-                        al
-                        área urbana en la costa sureste de la isla de Oahu, la ciudad y el condado de Honolulu forman
-                        una
-                        ciudad-condado que abarca toda la ciudad (aproximadamente 600 km² de superficie).</p>
-                    <button type="button" class="btn btn-secondary btn-outline-light">Conocé más</button>
+        
+                <div class="d-grid gap-2 col-7 mx-auto boton-resumen">
+                    <button id="btnResumen" class="btn btn-success botones-tickes" type="button">Resumen</button>
                 </div>
             </div>
         </div>
 
-
-        <div class="container form-text">
-            <p class="tit-from">CONVIERTETE EN UN</p>
-            <h2 class="tit-from2"><b>ORADOR</b></h2>
-            <p class="tit-from">Anotate para dar una charla ignite. Cuentanos de que quieres hablar</p>
-            <div class="formulario-entero">
-
-                <div class=" col-form ">
-                    <div class="imput-nombre">
-                        <input class="size" type="text" placeholder="nombre">
-
-                    </div>
-                    <div class="imput-apellido">
-                        <input class="size" type="text" placeholder="apellido">
-
-                    </div>
-
-                </div>
-                <div class="area">
-                    <textarea cols="130" rows="3" placeholder="Sobre que querees hablar?"></textarea>
-                </div>
-                <div id="emailHelp" class="text-for">recuerda incluir un titulo para charlar</div>
-
-                <div class="d-grid gap-2 col-7 mx-auto mover-boton">
-                    <button class="btn btn-success boton-inferior" type="button">Enviar</button>
-
-                </div>
-
-            </div>
-
+    </div>
+    <div class="container-fluid footer">
+        <div class="row p-4 mt-4">
+            <ul class="list-unstyled d-flex justify-content-center">
+                <li class="mx-3">
+                    <a class="text-white" href="#">Preguntas frecuentes</a>
+                </li>
+                <li class="mx-3">
+                    <a class="text-white" href="#">Contactanos</a>
+                </li>
+                <li class="mx-3">
+                    <a class="text-white" href="#">Prensa</a>
+                </li>
+                <li class="mx-3">
+                    <a class="text-white" href="#">Conferencias</a>
+                </li>
+                <li class="mx-3">
+                    <a class="text-white" href="#">Términos y condiciones</a>
+                </li>
+                <li class="mx-3">
+                    <a class="text-white" href="#">Privacidad</a>
+                </li>
+                <li class="mx-3">
+                    <a class="text-white" href="#">Estudiantes</a>
+                </li>
+            </ul>
         </div>
-        <div class="container-fluid footer">
-            <div class="row p-4 mt-4">
-                <ul class="list-unstyled d-flex justify-content-center">
-                    <li class="mx-3">
-                        <a class="text-white" href="#">Preguntas frecuentes</a>
-                    </li>
-                    <li class="mx-3">
-                        <a class="text-white" href="#">Contactanos</a>
-                    </li>
-                    <li class="mx-3">
-                        <a class="text-white" href="#">Prensa</a>
-                    </li>
-                    <li class="mx-3">
-                        <a class="text-white" href="#">Conferencias</a>
-                    </li>
-                    <li class="mx-3">
-                        <a class="text-white" href="#">Términos y condiciones</a>
-                    </li>
-                    <li class="mx-3">
-                        <a class="text-white" href="#">Privacidad</a>
-                    </li>
-                    <li class="mx-3">
-                        <a class="text-white" href="#">Estudiantes</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
+    </div>
 
 
 
 
-
-        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/ticket.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 
 </body>
 

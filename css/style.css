@@ -6,158 +6,395 @@ body {
 }
 
 
-.carousel-item{
+.carousel-item {
     filter: brightness(0.7);
 }
-.boton-trasparente{
+
+.boton-trasparente {
     z-index: 5;
     overflow-y: auto;
     position: absolute;
     bottom: 490px;
     left: 1350px;
-    
+
 }
-.boton-verde{
+
+.boton-verde {
     z-index: 5;
     overflow-y: auto;
     position: absolute;
     bottom: 490px;
     left: 1510px;
-    background-color: #088A29!important;
+    background-color: #088A29 !important;
     color: white !important;
 }
 
 
-    .texto {
-        width: auto;
-        top: 440px;
-        left: 70px;
-        font-size: 15px;
-        color: white;
-        z-index: 5;
-        position: absolute;
-        overflow-y: auto;
-        margin-right: 250px;
-        margin-left: 750px;
-    }
+.texto {
+    width: auto;
+    top: 440px;
+    left: 70px;
+    font-size: 15px;
+    color: white;
+    z-index: 5;
+    position: absolute;
+    overflow-y: auto;
+    margin-right: 250px;
+    margin-left: 750px;
+}
 
-    .titulo-bs {
-        width: auto;
-        top: 400px;
-        left: 0px;
-        font-size: 29px;
-        color: white;
-        z-index: 5;
-        position: absolute;
-        overflow-y: auto;
-        margin-right: 250px;
-        margin-left: 1500px;
-        z-index: 1;
-        font-weight: 600;
-    }
+.titulo-bs {
+    width: auto;
+    top: 400px;
+    left: 0px;
+    font-size: 29px;
+    color: white;
+    z-index: 5;
+    position: absolute;
+    overflow-y: auto;
+    margin-right: 250px;
+    margin-left: 1500px;
+    z-index: 1;
+    font-weight: 600;
+}
 
 .text-center {
-        margin-top: 15px;
-        margin-bottom: 15px;
-    }
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 
-    .span {
-        position: relative;
-        right: 125px;
-        margin: 5px;
+.span {
+    position: relative;
+    right: 125px;
+    margin: 5px;
 
-    }
+}
 
-    .span2 {
-        position: relative;
-        right: 125px;
-        margin: 5px;
-    }
+.span2 {
+    position: relative;
+    right: 125px;
+    margin: 5px;
+}
 
-    .span3 {
-        position: relative;
-        right: 125px;
-        margin: 5px;
-    }
+.span3 {
+    position: relative;
+    right: 125px;
+    margin: 5px;
+}
 
-    .footer {
-        background-color: #1C3A49;
-        text-decoration: none;
-        color: white;
+.footer {
+    background-color: #1C3A49;
+    text-decoration: none;
+    color: white;
 
-    }
+}
 
-    .form-text {
-        text-align: center;
-        padding: 1px;
-    }
+.form-text {
+    text-align: center;
+    padding: 1px;
+}
 
-    .col-form {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
+.col-form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 
-    }
+}
 
-    .size {
-        display: block;
-        padding: 10px;
-        margin: 10px;
-        box-sizing: border-box 1px;
-        width: 412px;
+.size {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box 1px;
+    width: 412px;
 
-    }
+}
 
-    .imput-nombre {
-        position: relative;
-        left: 208px
-    }
+.imput-nombre {
+    position: relative;
+    left: 208px
+}
 
-    .imput-apellido {
-        position: relative;
-        left: 5px;
-    }
+.imput-apellido {
+    position: relative;
+    left: 5px;
+}
 
-    .tit-from {
-        margin-top: 9px;
-        color: #000;
-    }
+.tit-from {
+    margin-top: 9px;
+    color: #000;
+}
 
-    .tit-from2 {
-        margin-top: -5px;
-        color: black;
-    }
+.tit-from2 {
+    margin-top: -5px;
+    color: black;
+}
 
-    .area {
-        display: flex;
-        justify-content: center;
-        margin-bottom: 20px;
-        padding: 8px;
-        margin: 20px;
-    }
+.area {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    padding: 8px;
+    margin: 20px;
+}
 
-    .text-for {
-        margin-top: 10px;
-        margin-right: 620px;
-        padding: 8px;
-        margin-bottom: 6px;
-        margin-top: -30px;
+.text-for {
+    margin-top: 10px;
+    margin-right: 620px;
+    padding: 8px;
+    margin-bottom: 6px;
+    margin-top: -30px;
 
-    }
+}
 
-    .texto_caja {
-        padding: 7px;
-    }
+.texto_caja {
+    padding: 7px;
+}
 
-    .mover-boton {
-        position: relative;
-        right: 55px;
+.mover-boton {
+    position: relative;
+    right: 55px;
 
-    }
+}
 
-    .boton-inferior {
-        width: 115%;
-        border: none;
-        font-size: 18px;
-        background-color: #7fc33b !important;
-        color: whitesmoke;
-    }
+.boton-inferior {
+    width: 115%;
+    border: none;
+    font-size: 18px;
+    background-color: #7fc33b !important;
+    color: whitesmoke;
+}
+
+.ticket-nombre {
+    position: relative;
+    left: 208px;
+    top: 0px;
+
+
+}
+
+.ticket-apellido {
+    position: relative;
+    right: 223px;
+    top: 0px;
+}
+
+.ticket-correo {
+    position: relative;
+    left: 209px;
+    top: 0px;
+
+}
+
+
+
+
+
+.tickets-categorias {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+
+.tickets-categorias .estudiante,
+.trainee,
+.junior {
+    width: 13%;
+    min-width: 180px;
+    height: 200px;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem 0.5rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.tickets-categorias .estudiante:hover,
+.trainee:hover,
+.junior:hover {
+    transform: scale(0.97);
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+
+}
+
+.tickets-category h2 {
+    font-size: 40px;
+
+}
+
+.tickets-categorias h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.tickets-categorias h5 {
+    font-size: 1rem;
+    color: var(--gray-700);
+}
+
+.tickets-categorias h6 {
+    font-size: 0.7rem;
+    color: var(--gray-600);
+}
+
+.estudiante {
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+
+
+.trainee {
+    border-radius: 5px;
+    border: 2px solid green;
+}
+
+.junior {
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+
+
+.tickets-text {
+    text-align: center;
+    position: relative;
+    top: 25px;
+    right: 0px;
+
+}
+
+/* furmalario de compra */
+
+.texto-formulario {
+    text-align: center;
+    padding: 1px;
+}
+
+.columna-formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+
+}
+
+.columna-formulario2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.input-text {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    width: 395px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+
+
+}
+
+.input-Correo {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box 1px;
+    width: 450px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    
+}
+.campo-corre {
+    /* para la posicion de corre */
+    position: relative;
+    left: 207px;
+    top: 25px;
+
+}
+
+.campo-nombre {
+    position: relative;
+    left: 208px;
+    top: 20px;
+
+
+}
+
+.campo-apellido {
+    position: relative;
+    right: 207px;
+    top: 20px;
+}
+
+.label-Cantidad {
+    position: relative;
+    right: 280px;
+    font-weight: normal;
+    color: #000;
+}
+
+.imput-cantidad {
+    position: relative;
+    left: 207px;
+    top: 30px;
+
+}
+.label-Categoria {
+    position: relative;
+    right: 315px;
+    top: 30PX;
+    font-weight: normal;
+    color: #000;
+
+}
+.selec-categoria {
+    position: relative;
+    width: 395px;
+    height: 44px;
+    border-radius: 3px;
+    border: 1px solid var(--gray-300);
+    padding: 4px;
+    top: 32px;
+    right: 153px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+
+
+}
+
+
+#alerta {
+    position: relative;
+    top: 35px;
+    left: 218px;
+    width: 800px;
+    font-size: 18px;
+    text-align: left;
+
+
+}
+
+.boton-resumen {
+    position: relative;
+    left: 364px;
+    top: 10px;
+
+
+}
+
+.boton-borrar {
+    position: relative;
+    right: 52px;
+    top: 50px;
+
+
+}
+
+.botones-tickes {
+    width: 51%;
+    border: none;
+    height: 40px;
+    font-size: 18px;
+    background-color: #7fc33b !important;
+    color: whitesmoke;
+}
