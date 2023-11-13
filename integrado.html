@@ -5,9 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/style.css" rel="stylesheet">
-    <link href="combiertete.html">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-   <title>Integrador</title>
+    <title>Integrador</title>
 </head>
 
 <body>
@@ -27,19 +26,19 @@
                 <div class="container-fluid d-flex justify-content-end">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active text-white" aria-current="page" href="#">La conferencia</a>
+                            <a class="nav-link active text-white" aria-current="page" href="#carrusel">La conferencia</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Los oradores</a>
+                            <a class="nav-link text-white" href="#oradores">Los oradores</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">El lugar y la fecha</a>
+                            <a class="nav-link text-white" href="#lugar-fecha">El lugar y la fecha</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Conviértete en orador</a>
+                            <a class="nav-link text-white" href="#orador-form">Conviértete en orador</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-success" href="#">Comprar tickets</a>
+                            <a class="nav-link text-success" href="ticket.html">Comprar tickets</a>
                         </li>
                     </ul>
                 </div>
@@ -49,7 +48,7 @@
 
     <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
-            <div class="texto-carouse text-end ">
+            <div class="texto-carouse text-end" >
                 <p class="titulo-bs ">Conf Bs As</p>
                 <P class="texto">Bs As llega por primera vez a Argentina.un evento para compartir con nuestra comunidad
                     el conocimiento y experiencia de los experto que estan creado el futuro de intenet. Ven a conocer a
@@ -80,7 +79,8 @@
     </div>
 
 
-    <div class="container text-center">
+    <div class="container text-center" id="oradores">
+
         <h5 class=" ">Conoce a los oradores</h5>
         <h1>Oradores</h1>
         <div class="card-group">
@@ -132,7 +132,7 @@
     </div>
 
 
-    <div class="container-fluid contenedor">
+    <div class="container-fluid contenedor"  id="lugar-fecha">
         <div class="row">
             <div class="col-6 p-0">
                 <img class="d-block w-100" src="./img/honolulu.jpg" alt="playa">
@@ -153,7 +153,8 @@
     </div>
 
 
-    <div class="container form-text">
+    <div id="orador-form" class="container form-text">
+
         <p class="tit-from">CONVIERTETE EN UN</p>
         <h2 class="tit-from2"><b>ORADOR</b></h2>
         <p class="tit-from">Anotate para dar una <span class="underline">charla ignite.</span> Cuentanos de que
@@ -182,92 +183,6 @@
             </div>
         </div>
 
-        <!-- compra de ticket -->
-
-        <div class="container-tickets" id="containerTickets">
-            <div class="tickets-categorias">
-                <div class="estudiante" id="descuentoEstudiante">
-                    <marquee behavior="" direction="">
-                        <h3>Estudiante</h3>
-                    </marquee>
-                    <h5>Tiene un descuento</h5>
-                    <h2>80%</h2>
-                    <h6>* presentar documentación</h6>
-                </div>
-                <div class="trainee" id="descuentoTrainee">
-                    <marquee behavior="" direction="">
-                        <h3>Trainee</h3>
-                    </marquee>
-                    <h5>Tiene un descuento</h5>
-                    <h2>50%</h2>
-                    <h6>* presentar documentación</h6>
-                </div>
-                <div class="junior" id="descuentoJunior">
-                    <marquee behavior="" direction="">
-                        <h3>Junior</h3>
-                    </marquee>
-                    <h5>Tiene un descuento</h5>
-                    <h2>15%</h2>
-                    <h6>* presentar documentación</h6>
-                </div>
-            </div>
-            <div class="tickets-text">
-                <h6>VENTA</h6>
-                <h1>VALOR DE TICKET $200</h1>
-            </div>
-        
-            <div class="formulario-entero" id="formularioTickets">
-        
-                <div class=" columna-formulario ">
-                    <div class="campo-nombre">
-                        <input id="inputNombre" class="input-text" type="text" placeholder="Nombre">
-        
-                    </div>
-                    <div class="campo-apellido">
-                        <input id="inputApellido" class="input-text" type="text" placeholder="Apellido">
-        
-                    </div>
-        
-                    <div>
-                        <div class="campo-corre">
-                            <input id="inputCorreo" class="input-Correo" type="text" style="width:800px" placeholder="Correo">
-        
-                        </div>
-        
-                    </div>
-        
-                </div>
-                <div class=" columna-formulario ">
-                    <div class="imput-cantidad">
-                        <h6 class="label-Cantidad">Cantidad</h6>
-                        <input id="inputCantidad" class="input-text" type="text" placeholder="Cantidad">
-        
-                    </div>
-        
-                    <div class="labelcategoria">
-                        <h6 class="label-Categoria">Categoria</h6>
-                        <select id="selectCategoria" name="Categoria" class="selec-categoria">
-                            <option value="Estudiante">Estudiante</option>
-                            <option value="Trainee">Trainee</option>
-                            <option value="Junior">Junior</option>
-                        </select>
-                    </div>
-                </div>
-        
-                <div class="alert alert-primary" id="alerta" role="alert">
-                    Total a Pagar:$
-                </div>
-        
-                <div class="d-grid gap-2 col-7 mx-auto boton-borrar">
-                    <button id="btnBorrar" class="btn btn-success botones-tickes" type="button">Borrar</button>
-        
-                </div>
-        
-                <div class="d-grid gap-2 col-7 mx-auto boton-resumen">
-                    <button id="btnResumen" class="btn btn-success botones-tickes" type="button">Resumen</button>
-                </div>
-            </div>
-        </div>
 
     </div>
     <div class="container-fluid footer">

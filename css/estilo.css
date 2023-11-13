@@ -1,0 +1,198 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.footer {
+    position: relative;
+    background-color: #1C3A49;
+    text-decoration: none;
+    color: white;
+    top: 86px;
+    height: 100px;
+}
+.tickets-categorias {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.tickets-categorias .estudiante,
+.trainee,
+.junior {
+    width: 13%;
+    min-width: 180px;
+    height: 200px;
+    text-align: center;
+    padding: 0.5rem;
+    margin: 0.5rem 0.5rem;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+.tickets-categorias .estudiante:hover,
+.trainee:hover,
+.junior:hover {
+    transform: scale(0.97);
+    box-shadow: 5px 5px 5px 1px rgba(0, 0, 0, 0.2);
+}
+
+.tickets-category h2 {
+    font-size: 40px;
+}
+
+.tickets-categorias h3 {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.tickets-categorias h5 {
+    font-size: 1rem;
+    color: var(--gray-700);
+}
+
+.tickets-categorias h6 {
+    font-size: 0.7rem;
+    color: var(--gray-600);
+}
+
+.estudiante {
+    border-radius: 5px;
+    border: 2px solid blue;
+}
+
+.trainee {
+    border-radius: 5px;
+    border: 2px solid green;
+}
+
+.junior {
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+
+.tickets-text {
+    text-align: center;
+    position: relative;
+    top: 25px;
+    right: 0px;
+}
+
+.texto-formulario {
+    text-align: center;
+    padding: 1px;
+}
+
+.columna-formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.input-text {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    width: 395px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+.input-Correo {
+    display: block;
+    padding: 10px;
+    margin: 10px;
+    box-sizing: border-box 1px;
+    width: 453px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+.campo-corre {
+    position: relative;
+    left: 525px;
+    top: 25px;
+}
+
+.campo-nombre {
+    position: relative;
+    left: 525px;
+    top: 20px;
+}
+
+.campo-apellido {
+    position: relative;
+    right: 30px;
+    top: 20px;
+}
+
+.label-Cantidad {
+    position: relative;
+    left: 9px;
+    font-weight: normal;
+    color: #000;
+}
+
+.imput-cantidad {
+    position: relative;
+    left: 525px;
+    top: 30px;
+}
+
+.label-Categoria {
+    position: relative;
+    right: 15px;
+    top: 30PX;
+    font-weight: normal;
+    color: #000;
+}
+
+.selec-categoria {
+    position: relative;
+    width: 395px;
+    height: 44px;
+    border-radius: 3px;
+    border: 1px solid var(--gray-300);
+    padding: 4px;
+    top: 32px;
+    right: 15px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+}
+
+#alerta {
+    position: relative;
+    top: 35px;
+    left: 535px;
+    width: 805px;
+    font-size: 18px;
+    text-align: left;
+}
+
+.boton-borrar {
+    position: relative;
+    right: 264px;  
+    top: 50px;
+    width: 100%;
+    margin-right: 0;
+}
+
+.boton-resumen {
+    position: relative;
+    left: 160px;
+    top: 10px;
+    width: 100%;
+    margin-right: 0;
+}
+
+.botones-tickes {
+    width: 119%;
+    border: none;
+    height: 40px;
+    font-size: 18px;
+    background-color: #7fc33b !important;
+    color: whitesmoke;
+}
